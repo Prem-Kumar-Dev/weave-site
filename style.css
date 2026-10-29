@@ -46,11 +46,16 @@ header.site {
 }
 
 header.site .brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
   font-size: 1.4rem;
   font-weight: 700;
   color: var(--text);
   text-decoration: none;
 }
+
+header.site .brand img { border-radius: 8px; }
 
 nav a { margin-right: 1rem; white-space: nowrap; }
 
