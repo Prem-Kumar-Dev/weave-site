@@ -40,7 +40,7 @@ header.site {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem 1.25rem;
-  align-items: baseline;
+  align-items: center;
   justify-content: space-between;
   border-bottom: 1px solid var(--border);
 }
@@ -55,7 +55,7 @@ header.site .brand {
   text-decoration: none;
 }
 
-header.site .brand img { border-radius: 8px; }
+header.site .brand img { display: block; height: 32px; width: auto; }
 
 nav a { margin-right: 1rem; white-space: nowrap; }
 
